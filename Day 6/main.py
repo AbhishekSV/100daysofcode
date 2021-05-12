@@ -1,3 +1,24 @@
+def move():
+    print("Bot goes straight")
+
+def turn_left():
+    print("Bot turns left")
+
+def right_is_clear():
+    print("Bot checks right")
+
+def front_is_clear():
+    print("Bot checks straight")
+
+def wall_in_front():
+    print("Bot checks straight wall")
+
+def wall_on_right():
+    print("Bot checks right wall")
+
+def at_goal():
+    print("Bot is at goal")
+
 #Day 6 Assignment 1,2
 def turn_right():
     turn_left()
