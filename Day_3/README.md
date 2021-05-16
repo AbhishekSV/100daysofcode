@@ -6,4 +6,4 @@
 # If-elif vs if in succession
 # Pizza Order App
 # Love Calculator App
-# Treasure Island App
+# Treasure Island App.
