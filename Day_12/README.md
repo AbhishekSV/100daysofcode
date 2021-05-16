@@ -1,1 +1,1 @@
-# Number guessing App
+# Number guessing Application
