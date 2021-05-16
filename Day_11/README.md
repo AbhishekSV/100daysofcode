@@ -1,1 +1,1 @@
-# Blackjack App from Scratch
+# Blackjack Application from Scratch
