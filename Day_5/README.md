@@ -3,4 +3,4 @@
 # Highscore App
 # Adding Even Numbers App
 # FizzBuzz App
-# Password Generator App
+# Password Generator App.
