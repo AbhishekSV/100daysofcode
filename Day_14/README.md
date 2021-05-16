@@ -1,1 +1,1 @@
-# Higher Lower App from Scratch
+# Higher Lower Application from Scratch
