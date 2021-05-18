@@ -1,6 +1,5 @@
 from turtle import Turtle, colormode, Screen
-
-color_palette = [(249, 248, 248), (237, 241, 246), (238, 246, 244), (249, 243, 247), (1, 12, 31), (54, 25, 17), (218, 127, 106), (9, 104, 160), (242, 213, 68), (150, 83, 39), (216, 86, 63), (156, 6, 24), (165, 162, 30), (158, 62, 102), (207, 73, 103), (10, 64, 33), (11, 96, 57), (95, 6, 20), (175, 134, 162), (7, 173, 217), (1, 61, 145), (2, 213, 207), (158, 32, 23), (8, 140, 85), (144, 227, 217), (121, 193, 147), (220, 177, 216), (100, 218, 229), (251, 198, 1), (116, 170, 192)]
+from random import choice
 
 tory = Turtle()
 tory.shape('turtle')
@@ -43,7 +42,6 @@ colormode(255)
 #     tory.circle(100)
 #     tory.setheading(i)
 
-# from random import randint, choice
 # import colorgram as col
 # color_palette = []
 # # Extract 30 colors from an image.
@@ -56,6 +54,17 @@ colormode(255)
 #     color_palette.append(color_rgb)
 # print(color_palette)
 
+# Draws Hist Spot Painting
+color_palette = [(249, 248, 248), (237, 241, 246), (238, 246, 244), (249, 243, 247), (1, 12, 31), (54, 25, 17), (218, 127, 106), (9, 104, 160), (242, 213, 68), (150, 83, 39), (216, 86, 63), (156, 6, 24), (165, 162, 30), (158, 62, 102), (207, 73, 103), (10, 64, 33), (11, 96, 57), (95, 6, 20), (175, 134, 162), (7, 173, 217), (1, 61, 145), (2, 213, 207), (158, 32, 23), (8, 140, 85), (144, 227, 217), (121, 193, 147), (220, 177, 216), (100, 218, 229), (251, 198, 1), (116, 170, 192)]
+
+tory.penup()
+tory.hideturtle()
+for i in range(0, 700, 70):
+    tory.sety(-315 + i)
+    for j in range(0, 750, 75):
+        tory.setx(-340 + j)
+        tory.dot(20,choice(color_palette))
+        tory.forward(100)
 
 canvas = Screen()
 canvas.exitonclick()
