@@ -1,3 +1,4 @@
-# Paint Area Calculator App
-# Prime Number Checker App
-# Caesar Cipher Application
+## Applications:
+- Caesar Cipher Application
+- Paint Area Calculator App
+- Prime Number Checker App

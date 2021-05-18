@@ -1,2 +1,5 @@
 # 100daysofcode
-# Revise Day 6 Last Exercise
+
+## Python and OOP learning/revision
+
+### Based on [Python Bootcamp by Angela Yu](https://www.udemy.com/course/100-days-of-code/)

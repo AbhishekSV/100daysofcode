@@ -1,7 +1,9 @@
-# Learn about Print function
-# Learn about Input function
-# Learn about len function
-# Learn about Print function
-# Learn about variables
-# Program to swap variable values
-# Band Name Generator App.
+## Applications:
+- Band Name Generator App
+- Program to swap variable values
+### Concepts:
+- Python Inbuild Functions
+    - print function
+    - input function
+    - len function
+- variables

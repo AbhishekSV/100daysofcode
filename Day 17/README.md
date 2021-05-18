@@ -1,2 +1,4 @@
-# Created a Quiz game based on OOP
-# Switched dataset to publicly available opentdb.com and slightly modified code to support
+## Applications:
+- Created a Quiz game based on OOP
+- Switched to publicly available [dataset](https://opentdb.com/)
+    - updated main.py to support the latest changes

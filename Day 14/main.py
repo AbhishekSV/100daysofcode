@@ -1,6 +1,6 @@
 import random
-import art_highlow
-import game_data
+from Resources.art_highlow import logo, vs
+from Resources.game_data import data
 from os import system
 
 def check_score(guess, a_b):
@@ -25,11 +25,11 @@ def game_play(game_list, score):
     a_vs_b['a'] = game_list[index]
     a_vs_b['b'] = game_list[index + 1]
     system('clear')
-    print(art_highlow.logo)
+    print(logo)
     if score > 0:
       print(f"You're right! Current score: {score}.")
     print(f"Compare A: {a_vs_b['a']['name']}, {a_vs_b['a']['description']}, from {a_vs_b['a']['country']}")
-    print(art_highlow.vs)
+    print(vs)
     print(f"Against B: {a_vs_b['b']['name']}, {a_vs_b['b']['description']}, from {a_vs_b['b']['country']}")
     choice = input("Who has more followers? Type 'A' or 'B': ").lower()
     result = check_score(choice,a_vs_b)
@@ -40,7 +40,7 @@ def game_play(game_list, score):
 
 def main():
   score = 0
-  game_list = random.sample(game_data.data,len(game_data.data))
+  game_list = random.sample(data,len(data))
   score = game_play(game_list, score)
   system('clear')
   print(f"Sorry, that's wrong. Final score: {score}")

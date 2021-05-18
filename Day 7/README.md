@@ -1,1 +1,1 @@
-# Hangman Application
+## Hangman Application
