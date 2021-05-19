@@ -5,6 +5,6 @@
 
 ### In Progress
 - [ ] Work on learning and markdown for better README's
-
+- [ ] Revisit Day 19
 ### Done
 - [x] Add individual readme's to each day
