@@ -20,7 +20,7 @@ def save_password():
     else:
         user_choice = messagebox.askokcancel(title=site, message=f"Verify the details:\nEmail: {email}\nPassword: {password}\n")
         if user_choice:
-            file_name = "/Users/abhisheksabnivis/Desktop/100daysofcode/Day 29/password_manager_data/data.txt"
+            file_name = "/Users/abhisheksabnivis/Desktop/100daysofcode/Day 29//password_manager_data/data.txt"
             with open(file_name, "a") as file:
                 file.writelines(f"{site} | {email} | {password}\n")
             website_input.delete(0, END)
@@ -33,7 +33,7 @@ window.config(padx=50, pady=50)
 
 #Canvas with mypass image
 canvas = Canvas(width=200, height=200)
-img = PhotoImage("/Users/abhisheksabnivis/Desktop/100daysofcode/Day 29/password_manager_data/logo.png")
+img = PhotoImage(file="/Users/abhisheksabnivis/Desktop/100daysofcode/Day 29/password_manager_data/logo.png")
 canvas.create_image(100, 100, image=img)
 canvas.grid(column=1, row=0)
 

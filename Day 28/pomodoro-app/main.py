@@ -1,4 +1,4 @@
-
+from os import path, sys
 from tkinter import *
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
@@ -63,7 +63,7 @@ window.config(padx=100, pady=50, bg=YELLOW)
 
 #Canvas with tomato image and timer
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
-img = PhotoImage('tomato.png')
+img = PhotoImage(file=path.join(sys.path[0], 'tomato.png'))
 canvas.create_image(100, 112, image=img)
 timer_text = canvas.create_text(100, 130, text="00:00", font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)

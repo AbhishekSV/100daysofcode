@@ -66,7 +66,7 @@ window.config(padx=50, pady=50)
 
 #Canvas with mypass image
 canvas = Canvas(width=200, height=200)
-img = PhotoImage("/Users/abhisheksabnivis/Desktop/100daysofcode/Day 30/password_manager_app/logo.png")
+img = PhotoImage(file="/Users/abhisheksabnivis/Desktop/100daysofcode/Day 30/password_manager_app/logo.png")
 canvas.create_image(100, 100, image=img)
 canvas.grid(column=1, row=0)
 
