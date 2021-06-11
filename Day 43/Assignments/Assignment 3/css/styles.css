@@ -1,0 +1,29 @@
+/******************TAG SELECTORS******************************/
+
+h1 {
+    color: teal;
+    font-size: 50px;
+}
+
+img:hover {
+    background-color: yellow;
+}
+
+
+/******************CLASS SELECTORS******************************/
+.potato {
+    background-color: green;
+}
+
+.apple {
+    background-color: orange;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/******************ID SELECTORS******************************/
+#heading {
+    color: peachpuff;
+}
