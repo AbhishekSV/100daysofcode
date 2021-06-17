@@ -1,5 +1,5 @@
 ## Applications:
-- Automated Game playing bot
+- Automated Cookie Game playing bot
 
 ### Concepts:
 - Selenium Web Driver
