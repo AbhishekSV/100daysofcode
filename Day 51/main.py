@@ -4,7 +4,7 @@ from .BotClass import InternetSpeedTwitterBot
 PROMISED_UP = 100
 PROMISED_DOWN = 80
 
-TWITTER_EMAIL = os.environ.get('TWITTER_EMAIL')
-TWITTER_PASSWORD = os.environ.get('TWITTER_PASSWORD')
-
 bot = InternetSpeedTwitterBot()
+bot.get_internet_speed()
+if bot.up < PROMISED_UP or bot.down < PROMISED_DOWN:
+    bot.tweet_at_provider()
