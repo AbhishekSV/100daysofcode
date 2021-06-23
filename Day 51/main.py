@@ -1,5 +1,5 @@
 import os
-from .BotClass import InternetSpeedTwitterBot
+from Resources.BotClass import InternetSpeedTwitterBot
 
 PROMISED_UP = 100
 PROMISED_DOWN = 80

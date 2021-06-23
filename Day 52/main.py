@@ -1,5 +1,5 @@
 import os
-from .InstaFollowerBot import InstaFollower
+from Resources.InstaFollowerBot import InstaFollower
 
 bot = InstaFollower()
 bot.login()
