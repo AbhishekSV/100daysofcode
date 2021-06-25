@@ -1,22 +1,12 @@
-import time
+from flask import Flask
 
-def speed_calc_decorator(function):
-    def wrapper_function():
-        start = time.time()
-        function()
-        end = time.time()
-        print(f"Time taken to run {function.__name__} is {end-start} seconds")
-    return wrapper_function
+app = Flask(__name__)
 
-@speed_calc_decorator
-def fast_function():
-    for i in range(10000000):
-        i * i
-        
-@speed_calc_decorator
-def slow_function():
-    for i in range(100000000):
-        i * i
 
-fast_function()
-slow_function()
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
+
+
+if __name__ == '__main__':
+    app.run()
