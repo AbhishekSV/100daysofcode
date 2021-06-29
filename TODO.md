@@ -6,6 +6,7 @@
 ### In Progress
 - [ ] Revisit Day 19
 - [ ] Revisit Day 48 Cookie Game
+- [ ] Revisit HTML with Selenium Sections
 ### Done
 - [x] Add individual readme's to each day
 - [x] Work on learning and markdown for better README's
