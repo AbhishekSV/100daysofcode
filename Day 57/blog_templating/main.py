@@ -1,10 +1,8 @@
 from flask import Flask, render_template
 from resources.post import Post
 import requests
-import datetime
 
 posts = requests.get("https://api.npoint.io/5a063bfd9424376c26af").json()
-yr = datetime.datetime.now().year
 post_objects = []
 for post in posts:
     post_obj = Post(post["id"], post["title"], post["subtitle"], post["body"])
