@@ -42,7 +42,7 @@ def add_cafe():
 
 @app.route('/cafes')
 def cafes():
-    with open('cafe-data.csv', newline='') as csv_file:
+    with open('/Users/abhisheksabnivis/Desktop/100daysofcode/Day 62/coffee-and-wifi/cafe-data.csv', newline='') as csv_file:
         csv_data = csv.reader(csv_file, delimiter=',')
         list_of_rows = []
         for row in csv_data:
